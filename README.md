@@ -1,16 +1,58 @@
-# React + Vite
+# 📝 Task Manager Pro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Práctica 5 - Desarrollo Web II**
 
-Currently, two official plugins are available:
+Aplicación web de gestión de tareas desarrollada con **Vite** como herramienta de construcción y desarrollo rápido.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías
 
-## React Compiler
+- **Vite** - Build tool y dev server ultra-rápido
+- **React 19** - UI Library
+- **Firebase** - Backend (Authentication + Firestore)
+- **Tailwind CSS 4** - Estilos utility-first
+- **Zustand** - Manejo de estado global
+- **React Router** - Navegación
+- **React Hook Form** - Validación de formularios
+- **React Hot Toast** - Notificaciones
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Características
 
-## Expanding the ESLint configuration
+- ✅ Autenticación de usuarios (Login/Register)
+- ✅ CRUD completo de tareas
+- ✅ Filtros por estado y categoría
+- ✅ Búsqueda en tiempo real
+- ✅ Estadísticas de tareas
+- ✅ Tema oscuro/claro
+- ✅ Notificaciones toast
+- ✅ Sincronización en tiempo real (Firestore)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Instalación
+
+```bash
+# Instalar dependencias
+npm install
+
+# Copiar variables de entorno
+# Crear archivo .env en la raíz con las credenciales de Firebase
+```
+
+## 🔧 Desarrollo
+
+```bash
+# Servidor de desarrollo (Vite HMR)
+npm run dev
+
+# Build de producción
+npm run build
+
+# Preview del build
+npm run preview
+```
+
+## 🌐 Despliegue
+
+Ver **[DEPLOYMENT.md](DEPLOYMENT.md)** para instrucciones completas de despliegue en Netlify.
+
+---
+
+**Desarrollo Web II** - Universidad 2026
